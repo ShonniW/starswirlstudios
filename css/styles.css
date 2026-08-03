@@ -129,14 +129,14 @@
 #ColorCSS h2 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
-  color: green;
+  color: #008000;
 }
 
 /* Conclusion Styling */
 #ColorCSS .conclusion h2 {
-  font-family: "Devonshire", cursive;
-  font-size: 2.5rem;
-  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  color: #008000;
 }
 
 #ColorCSS .conclusion iframe {
@@ -194,44 +194,17 @@
 
 
 
-/*
-
-.slideshow {
-    width: 100%;
-    max-width: 800px;
-    height: 550px;
-
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-    overflow: hidden;
-}
 
 
-.slide {
-    position: absolute;
 
-    height: 500px;
-    width: auto;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 
-    object-fit: contain;
 
-    opacity: 0;
-    transition: opacity .5s;
-}
 
-.slide.active {
-    opacity: 1;
-}
-*/
+
+
+
+
 
 
 .slideshow {
@@ -278,8 +251,9 @@ button {
     cursor: pointer;
 }
 
+
 #ColorCSS .slideshow .slide {
-    height: 450px !important;
+    height: 350px !important;
     width: auto !important;
     max-width: none;
 }
