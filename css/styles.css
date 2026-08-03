@@ -1,7 +1,7 @@
 
 
 #ColorCSS header {
-  background-color: #C7E1FF;
+  background-color: #e1c8ff;
   padding: 2rem; /* Relative to root font size */
   border-radius: 0.5rem; /* Relative rounding */
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); /* Fluid shadow sizes */
@@ -15,14 +15,14 @@
   margin-top: 0;
   padding: 1rem;
   font-size: 2rem; /* Relative font size */
-  color: #C12A7B;
-  background-color: #E59DF3;
+  color: #9254e2;
+  background-color: #543877;
   font-family: "Holtwood One SC", serif;
   text-align: center;
   border-radius: 0.5rem;
   max-width: 50rem; /* Maximum size of 800px */
   margin: 0 auto;
-  box-shadow: 0 0.2rem 0.5rem #E068;
+  box-shadow: 0 0.2rem 0.5rem #a851ef88;
 }
 
 #ColorCSS nav {
@@ -41,23 +41,23 @@
 
 #ColorCSS nav ul li {
   flex: 1;
-  background-color: #E0D6FF;
+  background-color: #ede7ff;
   padding: 1.5rem 0;
   border-radius: 0.5rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0.2rem 0.5rem #E068;
+  box-shadow: 0 0.2rem 0.5rem #a851ef88;
   margin: 0 1rem;
 }
 
 #ColorCSS nav ul li:hover {
-  background-color: #C12A7B;
+  background-color: #cf83f6;
   transform: scale(1.1);
 }
 
 #ColorCSS nav a {
   font-family: "Holtwood One SC", serif;
   text-decoration: none;
-  color: #C12A7B;
+  color: #7b188c;
   font-size: 1.125rem; /* 18px */
   transition: color 1s ease;
 }
@@ -92,15 +92,15 @@
 
 /* Base Styles (Provided CSS) */
 #ColorCSS body {
-  background-color: #9cced6;
+  background-color: #311736;
 }
 
 #ColorCSS .colorblock, .conclusion {
-  background-color: #A2D6F9;
+  background-color: #e1c8ff;
   padding: 1.25rem;
   margin: 1rem auto;
   text-align: center;
-  border: 0.625rem solid #157F1F;
+  border: 0.625rem solid #6ca992;
   border-radius: 1rem;
   width: 80%;
   max-width: 90%;
@@ -253,7 +253,7 @@ button {
 
 
 #ColorCSS .slideshow .slide {
-    height: 550 !important;
+    height: 475 !important;
     width: auto !important;
     max-width: none;
 }
