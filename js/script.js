@@ -1,26 +1,22 @@
-const slides = document.querySelectorAll(".slide");
+document.addEventListener("DOMContentLoaded", function () {
 
-let current = 0;
+    const slides = document.querySelectorAll(".slide");
+    let current = 0;
 
-function showSlide(index) {
-    slides.forEach(slide => slide.classList.remove("active"));
-    slides[index].classList.add("active");
-}
-
-document.getElementById("next").addEventListener("click", () => {
-    current++;
-    if (current >= slides.length) {
-        current = 0;
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove("active"));
+        slides[index].classList.add("active");
     }
+
+    document.getElementById("next").addEventListener("click", function () {
+        current = (current + 1) % slides.length;
+        showSlide(current);
+    });
+
+    document.getElementById("prev").addEventListener("click", function () {
+        current = (current - 1 + slides.length) % slides.length;
+        showSlide(current);
+    });
+
     showSlide(current);
 });
-
-document.getElementById("prev").addEventListener("click", () => {
-    current--;
-    if (current < 0) {
-        current = slides.length - 1;
-    }
-    showSlide(current);
-});
-
-showSlide(current);
