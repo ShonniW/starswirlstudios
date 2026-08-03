@@ -1,0 +1,192 @@
+
+
+#ColorCSS header {
+  background-color: #C7E1FF;
+  padding: 2rem; /* Relative to root font size */
+  border-radius: 0.5rem; /* Relative rounding */
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1); /* Fluid shadow sizes */
+  width: 80%; /* 80% of the parent container */
+  max-width: 75rem; /* Maximum size of 1200px (75 * 16px) */
+  text-align: center;
+  margin: 0 auto; /* Center the header horizontally */
+}
+
+#ColorCSS header h2 {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 2rem; /* Relative font size */
+  color: #C12A7B;
+  background-color: #E59DF3;
+  font-family: "Holtwood One SC", serif;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 50rem; /* Maximum size of 800px */
+  margin: 0 auto;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+}
+
+#ColorCSS nav {
+  margin-top: 2rem; /* Space between header and nav */
+}
+
+#ColorCSS nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%; /* Fluid layout based on viewport width */
+  max-width: 67.5rem; /* Maximum size of 1080px */
+  margin: 0 auto; /* Centered navigation */
+}
+
+#ColorCSS nav ul li {
+  flex: 1;
+  background-color: #E0D6FF;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.2rem 0.5rem #E068;
+  margin: 0 1rem;
+}
+
+#ColorCSS nav ul li:hover {
+  background-color: #C12A7B;
+  transform: scale(1.1);
+}
+
+#ColorCSS nav a {
+  font-family: "Holtwood One SC", serif;
+  text-decoration: none;
+  color: #C12A7B;
+  font-size: 1.125rem; /* 18px */
+  transition: color 1s ease;
+}
+
+#ColorCSS nav ul li:hover a {
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #ColorCSS header {
+    width: 90%; /* Adjust width for smaller devices */
+  }
+
+  #ColorCSS nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width */
+  }
+
+  #ColorCSS nav ul li {
+    margin: 1rem 0; /* Vertical spacing for nav items */
+  }
+}
+/* Main Content Styling */
+
+
+
+
+
+
+
+/* Base Styles (Provided CSS) */
+#ColorCSS body {
+  background-color: #9cced6;
+}
+
+#ColorCSS .colorblock, .conclusion {
+  background-color: #A2D6F9;
+  padding: 1.25rem;
+  margin: 1rem auto;
+  text-align: center;
+  border: 0.625rem solid #157F1F;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 90%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#ColorCSS .colorblock img, .conclusion img {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header and Paragraph Styling */
+#ColorCSS h1, h2 {
+  color: green;
+  text-align: center;
+}
+
+#ColorCSS p, .conclusion p {
+  color: green;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+#ColorCSS h2 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  color: green;
+}
+
+/* Conclusion Styling */
+#ColorCSS .conclusion h2 {
+  font-family: "Devonshire", cursive;
+  font-size: 2.5rem;
+  color: black;
+}
+
+#ColorCSS .conclusion iframe {
+  margin-top: 1.25rem;
+  width: 100%;
+  max-width: 35rem;
+  height: 17.5rem;
+  border: none;
+}
+
+/* Media Query 1: Screens wider than 600px */
+@media (min-width: 600px) {
+  #ColorCSS .colorblock, .conclusion {
+    width: 70%;
+    padding: 1.5rem;
+  }
+
+  #ColorCSS p, .conclusion p {
+    font-size: 1.5rem;
+  }
+
+  #ColorCSS h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Media Query 2: Screens wider than 900px */
+@media (min-width: 900px) {
+  #ColorCSS .colorblock, .conclusion {
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+
+  #ColorCSS h1, h2 {
+    font-size: 2.5rem;
+  }
+
+  #ColorCSS p, .conclusion p {
+    font-size: 1.75rem;
+  }
+
+  #ColorCSS .conclusion iframe {
+    width: 80%;
+    max-width: 40rem;
+    height: 20rem;
+  }
+}
+
+
+
+
+
