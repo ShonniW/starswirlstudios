@@ -193,18 +193,25 @@
 
 
 
-
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px auto;
+}
+
+.gallery a {
+    display: block;
 }
 
 .gallery img {
-    width: 100%;
+    width: clamp(220px, 28vw, 350px);   
+    max-width: 100%;
     height: auto;
+    border-radius: 10px;
+    display: block;
 }
-
 
 
 
